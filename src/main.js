@@ -1,8 +1,6 @@
 import 'izitoast/dist/css/iziToast.min.css';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-import './css/styles.css';
-// import './loader/loader.css';
-
+import iziToast from 'izitoast';
 import { getImagesByQuery } from './js/pixabay-api.js';
 import {
   createGallery,
@@ -10,7 +8,7 @@ import {
   showLoader,
   hideLoader,
 } from './js/render-functions.js';
-import iziToast from 'izitoast';
+
 
 const form = document.querySelector('.form');
 
