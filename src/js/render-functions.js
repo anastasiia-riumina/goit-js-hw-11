@@ -29,10 +29,12 @@ export function clearGallery() {
   gallery.innerHTML = '';
 }
 
+
 export function showLoader() {
-  document.querySelector('.loader').classList.remove('hidden');
+  loader.classList.remove('hidden');
 }
 
 export function hideLoader() {
-  document.querySelector('.loader').classList.add('hidden');
+  loader.classList.add('hidden');
 }
+
